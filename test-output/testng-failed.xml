@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Basspro Validation - test suite]" guice-stage="DEVELOPMENT">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="testCases.UserRegistrationTest">
+        <methods>
+          <include name="NewUserRegistrationValidation"/>
+          <include name="TearDown"/>
+          <include name="RegistrationTest"/>
+        </methods>
+      </class> <!-- testCases.UserRegistrationTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Basspro Validation - test suite] -->
